@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11FDF3761DEC1866007B2188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FDF3751DEC1866007B2188 /* AppDelegate.swift */; };
+		11FDF3781DEC1866007B2188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FDF3771DEC1866007B2188 /* ViewController.swift */; };
+		11FDF37A1DEC1866007B2188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FDF3791DEC1866007B2188 /* Assets.xcassets */; };
+		11FDF37D1DEC1866007B2188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FDF37B1DEC1866007B2188 /* Main.storyboard */; };
+		11FDF3881DEC1866007B2188 /* HYFTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FDF3871DEC1866007B2188 /* HYFTTests.swift */; };
+		11FDF3931DEC1866007B2188 /* HYFTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FDF3921DEC1866007B2188 /* HYFTUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11FDF3841DEC1866007B2188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FDF36A1DEC1866007B2188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FDF3711DEC1866007B2188;
+			remoteInfo = HYFT;
+		};
+		11FDF38F1DEC1866007B2188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FDF36A1DEC1866007B2188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FDF3711DEC1866007B2188;
+			remoteInfo = HYFT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11FDF3721DEC1866007B2188 /* HYFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FDF3751DEC1866007B2188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11FDF3771DEC1866007B2188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11FDF3791DEC1866007B2188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11FDF37C1DEC1866007B2188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11FDF37E1DEC1866007B2188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FDF3831DEC1866007B2188 /* HYFTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYFTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FDF3871DEC1866007B2188 /* HYFTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYFTTests.swift; sourceTree = "<group>"; };
+		11FDF3891DEC1866007B2188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FDF38E1DEC1866007B2188 /* HYFTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYFTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FDF3921DEC1866007B2188 /* HYFTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYFTUITests.swift; sourceTree = "<group>"; };
+		11FDF3941DEC1866007B2188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FDF36F1DEC1866007B2188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FDF3801DEC1866007B2188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FDF38B1DEC1866007B2188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FDF3691DEC1866007B2188 = {
+			isa = PBXGroup;
+			children = (
+				11FDF3741DEC1866007B2188 /* HYFT */,
+				11FDF3861DEC1866007B2188 /* HYFTTests */,
+				11FDF3911DEC1866007B2188 /* HYFTUITests */,
+				11FDF3731DEC1866007B2188 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11FDF3731DEC1866007B2188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FDF3721DEC1866007B2188 /* HYFT.app */,
+				11FDF3831DEC1866007B2188 /* HYFTTests.xctest */,
+				11FDF38E1DEC1866007B2188 /* HYFTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FDF3741DEC1866007B2188 /* HYFT */ = {
+			isa = PBXGroup;
+			children = (
+				11FDF3751DEC1866007B2188 /* AppDelegate.swift */,
+				11FDF3771DEC1866007B2188 /* ViewController.swift */,
+				11FDF3791DEC1866007B2188 /* Assets.xcassets */,
+				11FDF37B1DEC1866007B2188 /* Main.storyboard */,
+				11FDF37E1DEC1866007B2188 /* Info.plist */,
+			);
+			path = HYFT;
+			sourceTree = "<group>";
+		};
+		11FDF3861DEC1866007B2188 /* HYFTTests */ = {
+			isa = PBXGroup;
+			children = (
+				11FDF3871DEC1866007B2188 /* HYFTTests.swift */,
+				11FDF3891DEC1866007B2188 /* Info.plist */,
+			);
+			path = HYFTTests;
+			sourceTree = "<group>";
+		};
+		11FDF3911DEC1866007B2188 /* HYFTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11FDF3921DEC1866007B2188 /* HYFTUITests.swift */,
+				11FDF3941DEC1866007B2188 /* Info.plist */,
+			);
+			path = HYFTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FDF3711DEC1866007B2188 /* HYFT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FDF3971DEC1866007B2188 /* Build configuration list for PBXNativeTarget "HYFT" */;
+			buildPhases = (
+				11FDF36E1DEC1866007B2188 /* Sources */,
+				11FDF36F1DEC1866007B2188 /* Frameworks */,
+				11FDF3701DEC1866007B2188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYFT;
+			productName = HYFT;
+			productReference = 11FDF3721DEC1866007B2188 /* HYFT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11FDF3821DEC1866007B2188 /* HYFTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FDF39A1DEC1866007B2188 /* Build configuration list for PBXNativeTarget "HYFTTests" */;
+			buildPhases = (
+				11FDF37F1DEC1866007B2188 /* Sources */,
+				11FDF3801DEC1866007B2188 /* Frameworks */,
+				11FDF3811DEC1866007B2188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FDF3851DEC1866007B2188 /* PBXTargetDependency */,
+			);
+			name = HYFTTests;
+			productName = HYFTTests;
+			productReference = 11FDF3831DEC1866007B2188 /* HYFTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11FDF38D1DEC1866007B2188 /* HYFTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FDF39D1DEC1866007B2188 /* Build configuration list for PBXNativeTarget "HYFTUITests" */;
+			buildPhases = (
+				11FDF38A1DEC1866007B2188 /* Sources */,
+				11FDF38B1DEC1866007B2188 /* Frameworks */,
+				11FDF38C1DEC1866007B2188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FDF3901DEC1866007B2188 /* PBXTargetDependency */,
+			);
+			name = HYFTUITests;
+			productName = HYFTUITests;
+			productReference = 11FDF38E1DEC1866007B2188 /* HYFTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11FDF36A1DEC1866007B2188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zeta;
+				TargetAttributes = {
+					11FDF3711DEC1866007B2188 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VLX24NPY57;
+						ProvisioningStyle = Automatic;
+					};
+					11FDF3821DEC1866007B2188 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VLX24NPY57;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11FDF3711DEC1866007B2188;
+					};
+					11FDF38D1DEC1866007B2188 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VLX24NPY57;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11FDF3711DEC1866007B2188;
+					};
+				};
+			};
+			buildConfigurationList = 11FDF36D1DEC1866007B2188 /* Build configuration list for PBXProject "HYFT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11FDF3691DEC1866007B2188;
+			productRefGroup = 11FDF3731DEC1866007B2188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11FDF3711DEC1866007B2188 /* HYFT */,
+				11FDF3821DEC1866007B2188 /* HYFTTests */,
+				11FDF38D1DEC1866007B2188 /* HYFTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11FDF3701DEC1866007B2188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FDF37A1DEC1866007B2188 /* Assets.xcassets in Resources */,
+				11FDF37D1DEC1866007B2188 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FDF3811DEC1866007B2188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FDF38C1DEC1866007B2188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FDF36E1DEC1866007B2188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FDF3781DEC1866007B2188 /* ViewController.swift in Sources */,
+				11FDF3761DEC1866007B2188 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FDF37F1DEC1866007B2188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FDF3881DEC1866007B2188 /* HYFTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FDF38A1DEC1866007B2188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FDF3931DEC1866007B2188 /* HYFTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11FDF3851DEC1866007B2188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FDF3711DEC1866007B2188 /* HYFT */;
+			targetProxy = 11FDF3841DEC1866007B2188 /* PBXContainerItemProxy */;
+		};
+		11FDF3901DEC1866007B2188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FDF3711DEC1866007B2188 /* HYFT */;
+			targetProxy = 11FDF38F1DEC1866007B2188 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11FDF37B1DEC1866007B2188 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FDF37C1DEC1866007B2188 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11FDF3951DEC1866007B2188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11FDF3961DEC1866007B2188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		11FDF3981DEC1866007B2188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VLX24NPY57;
+				INFOPLIST_FILE = HYFT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeta.HYFT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		11FDF3991DEC1866007B2188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VLX24NPY57;
+				INFOPLIST_FILE = HYFT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeta.HYFT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		11FDF39B1DEC1866007B2188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VLX24NPY57;
+				INFOPLIST_FILE = HYFTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeta.HYFTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYFT.app/Contents/MacOS/HYFT";
+			};
+			name = Debug;
+		};
+		11FDF39C1DEC1866007B2188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VLX24NPY57;
+				INFOPLIST_FILE = HYFTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeta.HYFTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYFT.app/Contents/MacOS/HYFT";
+			};
+			name = Release;
+		};
+		11FDF39E1DEC1866007B2188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VLX24NPY57;
+				INFOPLIST_FILE = HYFTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeta.HYFTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HYFT;
+			};
+			name = Debug;
+		};
+		11FDF39F1DEC1866007B2188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VLX24NPY57;
+				INFOPLIST_FILE = HYFTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeta.HYFTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HYFT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FDF36D1DEC1866007B2188 /* Build configuration list for PBXProject "HYFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FDF3951DEC1866007B2188 /* Debug */,
+				11FDF3961DEC1866007B2188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FDF3971DEC1866007B2188 /* Build configuration list for PBXNativeTarget "HYFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FDF3981DEC1866007B2188 /* Debug */,
+				11FDF3991DEC1866007B2188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11FDF39A1DEC1866007B2188 /* Build configuration list for PBXNativeTarget "HYFTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FDF39B1DEC1866007B2188 /* Debug */,
+				11FDF39C1DEC1866007B2188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11FDF39D1DEC1866007B2188 /* Build configuration list for PBXNativeTarget "HYFTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FDF39E1DEC1866007B2188 /* Debug */,
+				11FDF39F1DEC1866007B2188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11FDF36A1DEC1866007B2188 /* Project object */;
+}

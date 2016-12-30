@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D7A6EA1E15126D0098EBA2 /* HYFTWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D7A6E91E15126D0098EBA2 /* HYFTWindowController.swift */; };
+		11F85D061E1504D900DEFA97 /* HYFTIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F85D051E1504D900DEFA97 /* HYFTIdentifier.swift */; };
 		11FDF3761DEC1866007B2188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FDF3751DEC1866007B2188 /* AppDelegate.swift */; };
 		11FDF3781DEC1866007B2188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FDF3771DEC1866007B2188 /* ViewController.swift */; };
 		11FDF37A1DEC1866007B2188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FDF3791DEC1866007B2188 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11D7A6E91E15126D0098EBA2 /* HYFTWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYFTWindowController.swift; sourceTree = "<group>"; };
+		11F85D051E1504D900DEFA97 /* HYFTIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYFTIdentifier.swift; sourceTree = "<group>"; };
 		11FDF3721DEC1866007B2188 /* HYFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FDF3751DEC1866007B2188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11FDF3771DEC1866007B2188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				11FDF3751DEC1866007B2188 /* AppDelegate.swift */,
+				11D7A6E91E15126D0098EBA2 /* HYFTWindowController.swift */,
 				11FDF3771DEC1866007B2188 /* ViewController.swift */,
+				11F85D051E1504D900DEFA97 /* HYFTIdentifier.swift */,
 				11FDF3791DEC1866007B2188 /* Assets.xcassets */,
 				11FDF37B1DEC1866007B2188 /* Main.storyboard */,
 				11FDF37E1DEC1866007B2188 /* Info.plist */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11D7A6EA1E15126D0098EBA2 /* HYFTWindowController.swift in Sources */,
 				11FDF3781DEC1866007B2188 /* ViewController.swift in Sources */,
+				11F85D061E1504D900DEFA97 /* HYFTIdentifier.swift in Sources */,
 				11FDF3761DEC1866007B2188 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				11FDF3991DEC1866007B2188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11FDF39A1DEC1866007B2188 /* Build configuration list for PBXNativeTarget "HYFTTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				11FDF39C1DEC1866007B2188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11FDF39D1DEC1866007B2188 /* Build configuration list for PBXNativeTarget "HYFTUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				11FDF39F1DEC1866007B2188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

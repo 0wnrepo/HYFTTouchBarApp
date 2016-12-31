@@ -1,5 +1,5 @@
 # Overview
-<img src="https://project-zeta.s3-ap-southeast-1.amazonaws.com/post/5/final.png" width="800">
+![](final.png)
 
 A `NSTouchBar` app that ask you a question of "How do you feel today?". User can reply by clicking on the item on the `TouchBar` and receive a response instantly.
 
